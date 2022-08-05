@@ -1,0 +1,116 @@
+
+@keyframes navBar {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  @keyframes move-home {
+    0%{
+      opacity: 0;
+      margin-left: 0rem;
+    }
+    75%{
+      margin-left: 1.8rem;
+    }
+    100%{
+      opacity: 1;
+      margin-left: 1.58rem;
+    } 
+  }
+  
+  @keyframes move-blog {
+    0%{
+      margin-left: 17rem;
+      opacity: 0;
+    }
+    75%{
+      margin-left: 18.8rem;
+    }
+    100%{
+      margin-left: 18.28rem;
+      opacity: 1;
+    } 
+  }
+  
+  @keyframes move-about {
+    0%{
+      margin-left: 30rem;
+      opacity: 0;
+    }
+    75%{
+      margin-left: 31.8rem;
+    }
+    100%{
+      margin-left: 31.48rem;
+      opacity: 1;
+    } 
+  }
+  
+  @keyframes toggle-one {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      margin-bottom: 0;
+      transform: rotate(-45deg);
+    }
+  }
+  @keyframes toggle-two {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      margin-bottom: 0;
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes toggle-one-x {
+    0%{
+      transform: rotate(-45deg);
+      margin-bottom: 0;
+    }
+    100%{
+      transform: rotate(0);
+    }
+  }
+  @keyframes toggle-two-x {
+    0%{
+      transform: rotate(45deg);
+      margin-bottom: 0;
+    }
+    100%{
+      transform: rotate(0);
+    }
+  }
+  
+  @keyframes ball {
+    50%{
+      transform: translateX(2px);
+    }
+    75%{
+      transform: translateX(3px);
+    }
+  }
+
+@keyframes open-nav {
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 8rem;
+  }
+}
+
+@keyframes close-nav {
+  0%{
+    height: 8rem;
+  }
+  100%{
+    height: 0;
+  }
+}
